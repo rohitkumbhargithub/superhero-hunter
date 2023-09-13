@@ -1,0 +1,67 @@
+/* Favorite conatiner */
+
+#fav-hero-container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.favImage{
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 19rem;
+    margin: 0 auto;
+    margin-top: 2em;
+    color: white;
+}
+
+#fav-hero-container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fav-hero-container div button{
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#fav-hero-container div button:hover{
+    box-shadow: blueviolet 1px 1px 5px 1px;
+}
+
+div a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
+
+/* remove button */
+.removeFav{
+    padding: 1px;
+    border: 2px solid black;
+    width: 5em;
+    background-color: hsl(39, 47%, 41%);
+    border-radius: 5px;
+    padding: 5px;
+}
+.removeFav:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+#heroname{
+    padding: 8px;
+}

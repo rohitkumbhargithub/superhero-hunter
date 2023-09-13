@@ -1,0 +1,37 @@
+/* information */
+
+.bio-info{
+    position: relative;
+    margin-left: 50em;
+    margin-top: 3em;
+}
+
+.name-img{
+    color: rgb(177, 72, 72);
+    position: absolute;
+    margin: 0 0 0 9em;
+    text-align: center;
+    padding: 5px;
+}
+
+#photo{
+    width: 200px;
+    box-shadow: 0 0 15px 0 white;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    font-family: cursive;
+}
+
+.info{
+    margin-top: 1em;
+}
+
+.bio-info #power{
+    color: aqua;
+}
+
